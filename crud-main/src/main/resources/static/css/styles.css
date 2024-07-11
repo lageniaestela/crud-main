@@ -1,0 +1,49 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 80vh;
+    margin: 4vh 10vw;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: darkorange;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: lightskyblue;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 0vh 10vw;
+    height: 5vh;
+    color: rgb(25, 7, 103);
+}
+.form__crear {
+    margin: 5vh 0vw 2vh 0vw;
+}
+.form__editar {
+    margin: 5vh 0vw 2vh 0vw;
+}
+.button__crear {
+    text-decoration: none;
+    color:whitesmoke;
+}
+.button__crear {
+    color:white;
+}
+.form__acciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
